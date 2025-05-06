@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.Tracing;
 
 class Program
 {
@@ -8,34 +9,41 @@ class Program
         Console.Write("Enter your grade percent: ");
         string number = Console.ReadLine();
         float score = float.Parse(number);
+
+        string letter = "";
+
         if (score >= 70)
         {
             if (score >= 90)
             {
-                Console.WriteLine("Grade: A");
+                letter = "A";
             }
             else if (score >= 80)
             {
-                Console.WriteLine("Grade: B");
+                letter = "B";
             }
             else if (score >= 70)
             {
-                Console.WriteLine("Grade: C");
+                letter = "C";
             }
+
             Console.WriteLine("Congratulations! You made it.");
         }
         else
         {
             if (score >= 60)
             {
-                Console.WriteLine("Grade: D");
+                letter = "D";
             }
             else
             {
-                Console.WriteLine("Grade: E");
+                letter = "E";
             }
+
             Console.WriteLine("Haven't come this far, with little more effort, You're going to make it. Keep trying.");
         }
+
+        Console.WriteLine($"Grade: {letter}");
 
     }
 }
