@@ -12,13 +12,8 @@ public class Job
 
     }
 
-    public void ShowCompanyName()
+    public void DisplayDetails()
     {
-        Console.WriteLine(_company);
-    }
-
-    public void ShowJobTitle()
-    {
-        Console.WriteLine(_jobTitle);
+        Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}");
     }
 }
