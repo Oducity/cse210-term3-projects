@@ -13,6 +13,13 @@ class Program
 
         job1.ShowCompanyName();
         job1.ShowJobTitle();
+
+        Job job2 = new Job();
+        job2._company = "Apple";
+        job2._jobTitle = "Technician";
+
+        job2.ShowCompanyName();
+        job2.ShowJobTitle();
     }
 
 }
