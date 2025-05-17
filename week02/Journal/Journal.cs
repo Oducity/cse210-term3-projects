@@ -3,26 +3,27 @@ public class Journal
     //Create attributes
     public List<Entry> _entry = new List<Entry>();
 
+
     //create the Journal class constructor //
     public Journal()
     {
 
     }
     //Create Methods. //
-    public void AddEntry()
+    public void AddEntry(Entry newEntry)
     {
-
+        
     }
     public void DisplayAll()
     {
-
+        Console.WriteLine(_entry);
     }
-    public string SaveToFile()
+    public void SaveToFile(string fileName)
     {
-        return "";
+        
     }
-    public string LoadFromFile()
+    public void LoadFromFile(string fileName)
     {
-        return "";
+        
     }
 }
