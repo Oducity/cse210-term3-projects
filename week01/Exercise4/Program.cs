@@ -7,6 +7,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the Exercise4 Project.");
+        Console.WriteLine("Enter the numbers and when you are done, press 0 to results and quit.");
         int number = -1;//initialize number to negative one
         int sum = 0;//initializes sum to zero.
         int numberOfItems = 0;

@@ -8,7 +8,7 @@ class Program
     {
 
         Console.WriteLine("Hello World! This is the Journal Project.");
-        DateTime now = DateTime.UtcNow;
+        string _add = "";
         int menu = 0;
         while (menu != 5)
         {
@@ -94,11 +94,20 @@ class Program
             {
                 Journal _saveJournal = new Journal();
 
+                //using System.IO
+                string filename = "myFile.txt";
+                using (StreamWriter outputFile = new StreamWriter(filename))
+                {
+                    outputFile.WriteLine(_saveJournal);
+                }
+
+
             }
 
             else if (menu == 4)
             {
                 Journal _readFile = new Journal();
+                
             }
 
             else if (menu == 5)
@@ -109,8 +118,7 @@ class Program
         }
         Journal journal = new Journal();
 
-
-        PromptGenerator _prompt = new PromptGenerator();
+        
 
     }
 }

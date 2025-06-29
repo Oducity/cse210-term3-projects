@@ -12,7 +12,8 @@ public class Journal
     //Create Methods. //
     public void AddEntry(Entry newEntry)
     {
-        
+        _entry.Add(newEntry);
+        Console.WriteLine(_entry);
     }
     public void DisplayAll()
     {

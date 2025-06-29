@@ -14,7 +14,11 @@ class Program
 
         if (score >= 70)
         {
-            if (score >= 90)
+            if (score >= 95)
+            {
+                letter = "A+";
+            }
+            else if (score >= 90)
             {
                 letter = "A";
             }
