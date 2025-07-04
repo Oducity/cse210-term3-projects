@@ -15,7 +15,7 @@ class Program
         job1._startYear = double.Parse(Console.ReadLine());
         Console.Write("Enter the year you stoped working here. ");
         job1._endYear = double.Parse(Console.ReadLine());
-        job1.DisplayDetails();  // Called the DisplayDetails method //
+        //job1.DisplayDetails();  // Called the DisplayDetails method for debugging purpose //
 
 
         Job job2 = new Job();  // Created class object and assign attributes values//
@@ -27,7 +27,7 @@ class Program
         job2._startYear = double.Parse(Console.ReadLine());
         Console.Write("Enter the year you stoped working here. ");
         job2._endYear = double.Parse(Console.ReadLine());
-        job2.DisplayDetails();  // Called the DisplayDetails method //
+        //job2.DisplayDetails();  // Called the DisplayDetails method for debugging purpose //
 
         Resume resume = new Resume(); // Create the Resume class Object and assign its member attributes. //
         resume._personalName = "Odumamen Aisiokuebor";

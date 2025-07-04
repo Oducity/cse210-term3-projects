@@ -14,13 +14,13 @@ public class Job
 
     }
 
-    //Created the DisplayDetails method //
-    public void DisplayDetails()
-    {
-        // Print to the terminal //
-        Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}");
+    //Created the DisplayDetails method for debugging purpose //
+    //public void DisplayDetails()
+    //{
+    //    // Print to the terminal //
+    //     Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}");
 
-    }
+    //}
 
 
 }

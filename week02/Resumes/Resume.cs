@@ -19,7 +19,8 @@ public class Resume
         // Use foreach loop to iterate through the _jobs and called the DisplayDetails method. //
         foreach (Job job in _jobs)
         {
-            job.DisplayDetails();
+            //job.DisplayDetails();
+            Console.WriteLine($"{job._jobTitle} ({job._company}) {job._startYear}-{job._endYear}");
         }
     }
 
