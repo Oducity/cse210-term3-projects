@@ -53,35 +53,35 @@ class Program
                 DateTime currentDateTime5 = DateTime.Now;
                 entry5._date = currentDateTime5.ToShortDateString();
 
-                Entry entry6 = new Entry();
-                Console.WriteLine(entry6._promptText = "");
-                entry6._entryText = Console.ReadLine();
-                DateTime currentDateTime6 = DateTime.Now;
-                entry6._date = currentDateTime6.ToShortDateString();
+                // Entry entry6 = new Entry();
+                //Console.WriteLine(entry6._promptText = "");
+                //entry6._entryText = Console.ReadLine();
+                //DateTime currentDateTime6 = DateTime.Now;
+                //entry6._date = currentDateTime6.ToShortDateString();
 
-                Entry entry7 = new Entry();
-                Console.WriteLine(entry7._promptText = "");
-                entry7._entryText = Console.ReadLine();
-                DateTime currentDateTime7 = DateTime.Now;
-                entry7._date = currentDateTime7.ToShortDateString();
+                //Entry entry7 = new Entry();
+                //Console.WriteLine(entry7._promptText = "");
+                //entry7._entryText = Console.ReadLine();
+                //DateTime currentDateTime7 = DateTime.Now;
+                //entry7._date = currentDateTime7.ToShortDateString();
 
-                Entry entry8 = new Entry();
-                Console.WriteLine(entry8._promptText = "");
-                entry8._entryText = Console.ReadLine();
-                DateTime currentDateTime8 = DateTime.Now;
-                entry8._date = currentDateTime8.ToShortDateString();
+                //Entry entry8 = new Entry();
+                //Console.WriteLine(entry8._promptText = "");
+                //entry8._entryText = Console.ReadLine();
+                //DateTime currentDateTime8 = DateTime.Now;
+                //entry8._date = currentDateTime8.ToShortDateString();
+                
+                //Entry entry9 = new Entry();
+                //Console.WriteLine(entry9._promptText = "");
+                //entry9._entryText = Console.ReadLine();
+                //DateTime currentDateTime9 = DateTime.Now;
+                //entry9._date = currentDateTime9.ToShortDateString();
 
-                Entry entry9 = new Entry();
-                Console.WriteLine(entry9._promptText = "");
-                entry9._entryText = Console.ReadLine();
-                DateTime currentDateTime9 = DateTime.Now;
-                entry9._date = currentDateTime9.ToShortDateString();
-
-                Entry entry10 = new Entry();
-                Console.WriteLine(entry10._promptText = "");
-                entry10._entryText = Console.ReadLine();
-                DateTime currentDateTime10 = DateTime.Now;
-                entry10._date = currentDateTime10.ToShortDateString();
+                //Entry entry10 = new Entry();
+                //Console.WriteLine(entry10._promptText = "");
+                //entry10._entryText = Console.ReadLine();
+                //DateTime currentDateTime10 = DateTime.Now;
+                //entry10._date = currentDateTime10.ToShortDateString();
             }
 
             else if (menu == 2)
